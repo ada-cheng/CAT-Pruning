@@ -114,7 +114,7 @@ for prompt in prompts:
 ```
 
 ## Try Different Pruning Strategies
-We hard code the pruning configuration in the [`qcache_compile`](./qcache_compile) version, to try different pruning configurations, i.e. try different $\alpha$, we provide another version without combining `torch.compile` in [`qcache`](./qcache).
+We hard code the pruning configuration in the [`qcache_compile`](./qcache_compile) version. To try different pruning configurations, i.e. try different $\alpha$, we provide another version without combining `torch.compile` in [`qcache`](./qcache).
 
 ```python
 import torch
