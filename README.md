@@ -1,4 +1,4 @@
-# CAT-Pruning
+# CAT Pruning: Cluster-Aware Token Pruning For Text-to-Image Diffusion Models
 
 #### [[Project Website]](https://github.com/ada-cheng/CAT-Pruning) [[Paper]](https://github.com/ada-cheng/CAT-Pruning)
 
