@@ -34,7 +34,7 @@ pip install scikit-learn
 ## Run CAT Pruning with `torch.compile`
 
 In [`example_sd3_graph.py`](example_sd3_graph.py), we provide an example that prunes 70%
- tokens, where $t_0$ = 8,$N$ = 28.
+ tokens, where $t_0 = 8,N = 28$.
 
  ```python
 import torch
