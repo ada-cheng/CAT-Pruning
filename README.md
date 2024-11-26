@@ -1,12 +1,12 @@
 # CAT Pruning: Cluster-Aware Token Pruning For Text-to-Image Diffusion Models
 
-#### [[Project Website]](https://github.com/ada-cheng/CAT-Pruning) [[Paper]](https://github.com/ada-cheng/CAT-Pruning)
+#### [[Project Website]](https://github.com/ada-cheng/CAT-Pruning) [[Paper]](https://openreview.net/forum?id=bloLh21WY6)
 
 [Xinle Cheng<sup>1</sup>](https://ada-cheng.github.io), [Zhuoming Chen<sup>2</sup>](https://dreaming-panda.github.io/), [ Zhihao Jia<sup>2</sup>](https://www.cs.cmu.edu/~zhihaoj2/)<br/>
 <sup>1</sup>Peking University <sup>2</sup>Carnegie Mellon University</br>
 
 This is the code base for our paper [CAT Pruning: Cluster-Aware Token Pruning For
- Text-to-Image Diffusion Models](https://github.com/ada-cheng/CAT-Pruning).
+ Text-to-Image Diffusion Models](https://openreview.net/forum?id=bloLh21WY6).
 
 ## Overview
  ![image](assets/new_overview.jpg)
@@ -17,7 +17,7 @@ This is the code base for our paper [CAT Pruning: Cluster-Aware Token Pruning Fo
 
 ## Environment Set Up
 
-Run `conda create python=3.9 -n cat-pruning` to create environment. Run `conda activate cat-pruning` to activate this environment.
+Run `conda create python=3.9 -n cat-pruning` to creat environment. Run `conda activate cat-pruning` to activate this environment.
 
 Install dependencies :
 
@@ -179,3 +179,15 @@ for i, prompt in enumerate(prompts):
 
 ## Citation 
 If CAT Pruning is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
+
+```
+@inproceedings{
+cheng2024cat,
+title={{CAT} Pruning: Cluster-Aware Token Pruning For Text-to-Image Diffusion Models},
+author={Xinle Cheng and Zhuoming Chen and Zhihao Jia},
+booktitle={Adaptive Foundation Models: Evolving AI for Personalized and Efficient Learning},
+year={2024},
+url={https://openreview.net/forum?id=bloLh21WY6}
+}
+
+```
