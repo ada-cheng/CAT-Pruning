@@ -181,13 +181,20 @@ for i, prompt in enumerate(prompts):
 If CAT Pruning is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
 
 ```
+@article{cheng2025cat,
+  title={CAT Pruning: Cluster-Aware Token Pruning For Text-to-Image Diffusion Models},
+  author={Cheng, Xinle and Chen, Zhuoming and Jia, Zhihao},
+  journal={arXiv preprint arXiv:2502.00433},
+  year={2025}
+}
+
 @inproceedings{
-cheng2024cat,
-title={{CAT} Pruning: Cluster-Aware Token Pruning For Text-to-Image Diffusion Models},
-author={Xinle Cheng and Zhuoming Chen and Zhihao Jia},
-booktitle={Adaptive Foundation Models: Evolving AI for Personalized and Efficient Learning},
-year={2024},
-url={https://openreview.net/forum?id=bloLh21WY6}
+    cheng2024cat,
+    title={{CAT} Pruning: Cluster-Aware Token Pruning For Text-to-Image Diffusion Models},
+    author={Xinle Cheng and Zhuoming Chen and Zhihao Jia},
+    booktitle={Adaptive Foundation Models: Evolving AI for Personalized and Efficient Learning},
+    year={2024},
+    url={https://openreview.net/forum?id=bloLh21WY6}
 }
 
 ```
